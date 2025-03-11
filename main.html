@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background Image Hover Change</title>
     <style>
-        #flip {
+        .flip {
             width: 300px; /* Adjust size as needed */
             height: 200px; /* Adjust size as needed */
             background-image: url('https://images.pexels.com/photos/6785279/pexels-photo-6785279.jpeg'); /* Default image */
             background-size: cover; /* Ensures the image covers the div */
-            background-position: center; /* Centers the image */
+			/* background-repeat:no-repeat;
+            background-position: center; /* Centers the image */ */
             /* transition: background-image 0.3s ease; /* Smooth transition (optional) */ */
         }
 
-        #flip:hover {
+        .flip:hover {
             background-image: url('https://live.staticflickr.com/8138/29099429912_0659caf55b_b.jpg'); /* Image on hover */
         }
     </style>
 </head>
 <body>
-    <div id="flip"></div>
+    <div class="flip"></div>
 </body>
 </html>
